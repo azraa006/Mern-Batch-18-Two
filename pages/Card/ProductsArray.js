@@ -1,9 +1,9 @@
 const ProductsArray=[
     {
-        id:"1",
+        id:1,
         title:"Hi Hello",
-        price:"3000",
-        offer:"20"
+        price:3000,
+        offer:20
 
     }
 ];

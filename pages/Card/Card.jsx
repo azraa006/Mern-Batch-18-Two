@@ -29,7 +29,7 @@ const Card = ({title,price,offer}) => {
            <div className="mb-4 flex items-center justify-between gap-4">
             <span className="me-2 rounded bg-primary-100 px-2.5 py-0.5 text-xs font-medium text-primary-800 dark:bg-primary-900 dark:text-primary-300">
               {" "}
-              Up to 35% off{" "}
+              Up to {offer}% off{" "}
             </span>
             <div className="flex items-center justify-end gap-1">
               <button
@@ -105,7 +105,7 @@ const Card = ({title,price,offer}) => {
             href="#"
             className="text-lg font-semibold leading-tight text-gray-900 hover:underline dark:text-white"
           >
-            Apple iMac 27", 1TB HDD, Retina 5K Display, M3 Max
+            {title}
           </a>
           <div className="mt-2 flex items-center gap-2">
             <div className="flex items-center">
@@ -205,7 +205,7 @@ const Card = ({title,price,offer}) => {
           </ul>
           <div className="mt-4 flex items-center justify-between gap-4">
             <p className="text-2xl font-extrabold leading-tight text-gray-900 dark:text-white">
-              $1,699
+              ${price}
             </p>
             <button
               type="button"

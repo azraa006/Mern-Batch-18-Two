@@ -11,20 +11,22 @@ const App= () => {
     <>
    <Header />
     <HeroSection />  
+    <Card/>
     {
-      Card.map((item) =>{
-        return(
+      ProductsArray.map((item) =>{
+        
           
-          <Card  
+          <Card
           key={item.id}
           title={item.title}
           price={item.price}
           offer={item.offer}/>
           
-        );
       })
     }
  <Footer/>
+ 
+
     </>
   );
 };
