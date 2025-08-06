@@ -1,7 +1,7 @@
 import React, 
 { useState } from 'react';
 
-const Counter = () => {
+  const Counter = () => {
     let[val,setVal]=useState(10);
     let[name,setName]=useState("sam");
      let[valid,setValid]=useState(true); 

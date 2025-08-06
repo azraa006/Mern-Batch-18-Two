@@ -2,7 +2,11 @@
 import React, 
 { useState } from 'react';
 
-const Comment = () => {
+
+/*Named import */
+
+
+ export const Comment = () => {
 
 
     /*
@@ -19,6 +23,7 @@ const Comment = () => {
           /*for submit button*/
     const [val,setVal]=useState([]);
 
+    
        
 
   return (
@@ -69,4 +74,3 @@ const Comment = () => {
   )
 }
 
-export default Comment

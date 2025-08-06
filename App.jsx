@@ -22,8 +22,8 @@ const App= () => {
           price={item.price}
           offer={item.offer}/>
           
-      })
-    }
+  })
+  }
  <Footer/>
  
 

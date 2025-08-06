@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-const Card = ({title,price,offer}) => {
+const Azraa2 = ({title,price,offer}) => {
  
  
   return (
@@ -3253,4 +3253,9 @@ const Card = ({title,price,offer}) => {
   )
 }
 
-export default Card
+export default Azraa2
+
+
+
+
+

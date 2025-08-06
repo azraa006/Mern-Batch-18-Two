@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Dummy() {
+const Dummy =() => {
   return (
    <>
    <div className="2xl:container mx-auto">
