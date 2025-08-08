@@ -1,4 +1,5 @@
 
+import React from "react";
 import { createBrowserRouter } from "react-router-dom";
 import App from "../App";
 import About from "../pages/About";
@@ -9,25 +10,23 @@ import Azraa from "../pages/Azraa";
 import Azraa2 from "../pages/Azraa2";
 import Dummy from "../pages/Dummy";
 import Product from "../pages/Product";
-
+import Header from "../pages/Header";
 
 const router = createBrowserRouter([
 
-
-  {
-    path: "/",
-    element: <Layout />,
+ {
+        path: "/",
+        element: <Layout />,
+      
+ 
     children: [
 
        {
-        path: "/",
+        path: "aa",
         element: <About />,
       },
 
-      {
-        path: "/aa",
-        element: <About />,
-      },
+     
       {
         path: "/hero",
         element: <HeroSection />,
@@ -53,8 +52,9 @@ const router = createBrowserRouter([
 
     ],
     errorElement: <ErrorPage />
-  }
-
+}
+ 
+ 
 
 ]);
 export default router

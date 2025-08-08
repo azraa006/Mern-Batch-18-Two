@@ -1,3 +1,5 @@
+
+import { useEffect,useState } from "react";
 const HomePage = () => {
   
   const [count,setCount] =useState(10)
